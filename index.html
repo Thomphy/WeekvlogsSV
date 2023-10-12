@@ -6,6 +6,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
+    <script>
+        const password = "SV2023-L1!"; // Replace with your desired password
+        
+        function checkPassword() {
+            const userPassword = prompt("Please enter the password:");
+            if (userPassword === password) {
+                showContent();
+            } else {
+                alert("Incorrect password. Access denied.");
+                window.location.href = "about:blank"; // Redirect to a blank page
+            }
+        }
+        
+        function showContent() {
+            // You can place the content to be shown after the password check here
+            // For example, the header, video, and buttons
+            document.getElementById("content").style.display = "block";
+        }
+    </script>
+    
     <header class="centered-header">
         <h1>Sound&Vision Weekvlogs</h1>
     </header>
