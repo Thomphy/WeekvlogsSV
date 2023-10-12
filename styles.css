@@ -56,3 +56,20 @@ a {
     color: red;
     margin-left: 10px;
 }
+
+.button-container {
+    text-align: center;
+}
+
+.orange-button {
+    display: block;
+    margin: 10px auto;
+    padding: 10px 20px;
+    background-color: orange;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
