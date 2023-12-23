@@ -55,18 +55,35 @@ a {
     font-weight: bold;
     color: red;
     margin-left: 10px;
+    margin-right: 10px;
 }
 
 .specials-button {
     font-weight: bold;
     color: orange;
     margin-left: 10px;
+    margin-right: 10px;
 }
 
 .old-button {
     font-weight: bold;
     color: #007ACC;
     margin-left: 10px;
+    margin-right: 10px;
+}
+
+.back-button {
+    font-weight: bold;
+    color: #007ACC;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.links-button {
+    font-weight: bold;
+    color: orange;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .button-container {
