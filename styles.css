@@ -57,6 +57,18 @@ a {
     margin-left: 10px;
 }
 
+.specials-button {
+    font-weight: bold;
+    color: orange;
+    margin-left: 10px;
+}
+
+.old-button {
+    font-weight: bold;
+    color: cyan;
+    margin-left: 10px;
+}
+
 .button-container {
     text-align: center;
 }
